@@ -10,7 +10,7 @@ async def on_ready():
   print("server up {0.user}".format(client))
   await client.change_presence(status=discord.Status.online,activity=discord.Game(':))'))
 
-key = "ENTER HYPIXEL API KEY HERE"
+hypixelKey = "ENTER HYPIXEL API KEY HERE"
 discordToken = "ENTER DISCORD BOT TOKEN HERE"
 # HIGHLY ADVISED TO MAKE THESE ENVIORNMENT VARIABLES ^
 
